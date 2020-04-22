@@ -1,6 +1,6 @@
 const {Builder, By, Key, util} = require("selenium-webdriver");
 async function run(){
-    //let driver = await new Builder().forBrowser("chrome").build();
+    let driver = await new Builder().forBrowser("chrome").build();
     var d = new Date();
     if(d.getDay() != 6 && d.getDay() != 7){
         
